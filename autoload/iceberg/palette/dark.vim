@@ -96,7 +96,7 @@ function! iceberg#palette#dark#create() abort
   let g.visual_bg = pgmnt#color#adjust_color(
         \ g.normal_bg, {
         \   'saturation': +0.05,
-        \   'lightness': +0.10,
+        \   'lightness': +0.15,
         \ })
   let g.whitespace_fg = pgmnt#color#adjust_color(
         \ g.normal_bg, {
